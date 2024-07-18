@@ -1,0 +1,19 @@
+.cards {
+  font-weight: bold;
+}
+.cards .container .row{
+  gap: 10px;
+}
+.card0,
+.card1,
+.card2,
+.card3,
+.card4,
+.card5{
+    margin-top: 10px;
+    color: black;
+    width: 10rem;
+}
+.slogan_title{
+    color: var(--color--red);
+}

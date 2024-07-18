@@ -1,0 +1,188 @@
+/* .img1 {
+  background-image: url("../../assets/Services/من نحن_.webp");
+}
+.img2 {
+  background-image: url("../../assets/Services/img3.webp");
+}
+.img3 {
+background-image: url("../../assets/Services/اعمالنا_.webp");
+}
+
+.img1,
+.img2,
+.img3 {
+  background-size:contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 24rem;
+
+}
+
+
+
+.swiper-button-prev {
+  display: none;
+}
+.swiper-button-next {
+  display: none;
+}
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+
+bottom: -7px;
+padding-bottom: 6px;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #fce875b1;
+}
+
+
+@media screen and (min-width:850px) and (max-width:1030px ){
+ 
+
+ .title h1{
+  font-size: 1.8rem;
+ }
+
+
+}
+
+@media screen and (min-width:665px) and (max-width:860px ){
+
+ .title h1{
+  font-size: 1.8;
+ }
+}
+@media screen and (min-width:540px) and (max-width:665px ){
+  .img1,
+  .img2,
+  .img3{
+   height: 40vh;
+  }
+  .title h1 {
+    font-size: 5.5vh;
+}
+.title h4 {
+    font-size: 2.8vh;
+}
+}
+@media screen and (min-width:476px) and (max-width:540px ){
+  .img1,
+  .img2,
+  .img3{
+   height: 35vh;
+  } 
+  .title h1 {
+    font-size: 4vh;
+}
+.title h4 {
+    font-size: 2.8vh;
+}
+}
+
+@media screen and (min-width:400px) and (max-width:476px ){
+  .img1,
+  .img2,
+  .img3{
+   height: 28vh;
+  } 
+   .navbar-brand img{
+    width: 10vh;
+   }
+  .title h1 {
+    margin-top: 1.5rem;
+    font-size: 4vh;
+}
+.title h4 {
+    font-size: 2.5vh;
+}
+
+}
+@media screen and (min-width:5px) and (max-width:400px ){
+  .img1,
+  .img2,
+  .img3{
+   height: 22vh;
+  } 
+
+
+ 
+  .title h1 {
+    margin-top: 1.6rem;
+    font-size: 1.7rem;
+  }
+  .title h4 {
+      font-size: 2.5vh;
+  }
+} */
+
+.slider-container {
+  height: 70vh;
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden; /* لإخفاء الصور التي تخرج من الحاوية */
+}
+
+.slider-image {
+  width: 100%;
+  height: auto;
+  border: none;
+  opacity: 0;
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  transform: scale(0.8); /* بدء الصورة بحجم صغير وشفاف */
+  
+}
+
+.slick-active .slider-image {
+  opacity: 1;
+  transform: scale(1); /* تكبير الصورة وجعلها مرئية عند العرض */
+}
+
+.slick-slide:not(.slick-active) .slider-image {
+  opacity: 0;
+  transform: scale(0.8); /* تصغير الصورة وجعلها شفافة عند الاختفاء */
+}
+
+/* App.css */
+.slider-container {
+  height: 28rem;
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  overflow: hidden; /* لإخفاء الصور التي تخرج من الحاوية */
+  position: relative;
+}
+
+.slider-image {
+  width: 100%;
+  height:auto;
+  border: none;
+  opacity: 0;
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  transform: scale(0.4); /* بدء الصورة بحجم صغير وشفاف */
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 5px;
+}
+
+.slick-active {
+  opacity: 1;
+  transform: scale(1); /* تكبير الصورة وجعلها مرئية عند العرض */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .slider-container {
+    height: 30vh;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider-container {
+    height: 18vh;
+    width: calc(100% - 11%);
+  }
+}

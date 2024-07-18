@@ -1,0 +1,23 @@
+.container {
+  margin-top: 10vh;
+}
+.about-title {
+  margin-top: 4vh;
+  font-size: 2rem;
+
+  color: var(--color--red1);
+}
+
+.about-details {
+  margin-top: 20px;
+  line-height: 2.5;
+  font-weight: 500;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.text-container {
+  width: 100%;
+  white-space: normal;
+  overflow: hidden;
+}

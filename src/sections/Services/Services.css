@@ -1,0 +1,56 @@
+.MainTitle {
+  color: var(--color--red1);
+  margin-bottom: 5vh;
+}
+.MainTitle h2{
+  font-size: 2rem;
+}
+
+.CaRd {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.CaRd h4 {
+  margin: 0;
+  font-size: 22px;
+  color: var(--color--red1);
+  margin-top: 6px;
+  text-align: center;
+
+}
+
+.CaRd p {
+  font-size: 20px;
+  justify-content: start;
+  display: flex;
+  padding: 5px;
+  font-weight: 500;
+}
+.CaRd p[lang="ja"]{
+  font-size: 18px;
+}
+.serv5 h4[lang="ja"]{
+  font-size: 20px;
+}
+
+.serv1,
+.serv2,
+.serv3,
+.serv4,
+.serv5,
+.serv6,
+.serv7,
+.serv8,
+.serv9,
+.serv10,
+.serv11,
+.serv12 {
+  max-width: 20rem;
+  margin: 0 auto !important;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}

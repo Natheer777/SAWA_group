@@ -1,0 +1,107 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Contact img{
+  width: 100%;
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.819);
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer ul{
+  list-style: none;
+}
+.footer ul li {
+  margin-bottom: 10px;
+}
+.list-unstyled{
+  text-align: start;
+}
+.logo_white {
+  display: flex;
+  justify-content: center;
+}
+.logo_white img {
+  width: 10vh;
+}
+.Logo_Footer {
+  width: 10rem;
+}
+
+.adress {
+  text-align: start;
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+@media screen and (min-width:1200px) and (max-width:1440px){
+  .adress[lang="en"]{
+    font-size: 17px;
+    }  
+}
+
+svg{
+  font-size: 20px;
+}
+a{
+text-decoration: none;
+  color:antiquewhite;
+}
+.Ulfooter{
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Ulfooter a{
+  font-size: 15px;
+}
+.DesktopView{
+  position: relative;
+  background-color: var(--color--red1);
+}
+.DesktopView h5{
+  font-size: 12px;
+  color: white;
+position: absolute;
+left: 50%;
+top: 42%;
+transform: translate(-50%,-50%);
+}
+.DesktopView svg{
+  color: white;
+  font-size: 2rem;
+}
+.App button{
+  border: none;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.rowFooter{
+  flex-direction: row-reverse;
+}
+.App button{
+  display: none;
+}
+@media screen and (min-width:5px) and (max-width:650px) {
+  .App button{
+    display: block;
+  }
+  .Ulfooter{
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
