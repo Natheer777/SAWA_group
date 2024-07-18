@@ -169,7 +169,19 @@ export default function Navbar() {
   const [t , i18n] = useTranslation();
   const dropdownRef = useRef(null);
   const navbarCollapseRef = useRef(null);
-  const [current , setcurrent]  = useState(i18n.language)
+
+
+
+  const languageNames = {
+    en: "English",
+    ja: "日本語",
+    ar: "العربية"
+  };
+
+  const [current, setcurrent] = useState(languageNames[i18n.language]);
+
+
+
 
   const showDropdown = () => {
     if (dropdownRef.current) {
@@ -207,11 +219,11 @@ export default function Navbar() {
       <div className="title container">
         <ul className="flex-container">
           <li>
-            <h1 className="left" lang={i18n.language}>
+            <h1 lang={i18n.language}>
               {t("Header-h")}
             </h1>
           </li>
-          <li className="diffrint left" lang={i18n.language}>
+          <li className="diffrint " lang={i18n.language}>
             {t("Header-p")}
           </li>
           <li>
@@ -220,7 +232,7 @@ export default function Navbar() {
             </a>
           </li>
         </ul>
-        <div className="typing-demo right">
+        <div className="typing-demo ">
           <div className="mt-3 m-0">
             <h5 lang={i18n.language}>{t("Main")}</h5>
           </div>
@@ -241,37 +253,37 @@ export default function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavDropdown" ref={navbarCollapseRef}>
             <ul className="navbar-nav">
-              <li className="nav-item active item1 hidden">
+              <li className="nav-item active  ">
                 <a className="nav-link" href="#">
                   <FaHome />
                   {t("Navbar-Home")}
                   <span className="sr-only"></span>
                 </a>
               </li>
-              <li className="nav-item item2 hidden">
+              <li className="nav-item  ">
                 <a className="nav-link" href="#about">
                   <IoPerson /> {t("Navbar-about")}
                 </a>
               </li>
-              <li className="nav-item item3 hidden">
+              <li className="nav-item  ">
                 <a className="nav-link" href="#Services">
                   <GrServices /> {t("Navbar-Services")}
                 </a>
               </li>
-              <li className="nav-item item4 hidden">
+              <li className="nav-item  ">
                 <a className="nav-link" href="#Contact">
                   <FaPhoneAlt /> {t("Navbar-contact")}
                 </a>
               </li>
               <li className="nav-item dropdown ms-3 nav-link dropdown-toggle fs-5">
                 <div
-                  className="dropdown lanBtn item5 hidden"
+                  className="dropdown lanBtn  "
                   onMouseEnter={showDropdown}
                   onMouseLeave={hideDropdown}
                   onClickCapture={showDropdown}
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <LuLanguages /> ▼
+                  <LuLanguages />  <span className="LanNAme">{current}</span> ▼
                   <div
                     className="dropdown-content"
                     ref={dropdownRef}
@@ -279,7 +291,7 @@ export default function Navbar() {
                   >
                     <a
                       onClick={() =>{ i18n.changeLanguage("ja");
-                        setcurrent("日本語")
+                        setcurrent(languageNames["ja"]);
 
                       }}
                       className="dropdown-item"
@@ -288,7 +300,7 @@ export default function Navbar() {
                     </a>
                     <a
                       onClick={() =>{ i18n.changeLanguage("en");
-                      setcurrent("English")
+                        setcurrent(languageNames["en"]);
 
                       }}
                       className="dropdown-item"
@@ -297,7 +309,7 @@ export default function Navbar() {
                     </a>
                     <a
                       onClick={() =>{ i18n.changeLanguage("ar");
-                      setcurrent("العربية")
+                        setcurrent(languageNames["ar"]);
 
                       }}
                       className="dropdown-item"

@@ -35,24 +35,10 @@
   margin-left: 10px;
   color: var(--color--red1);
 }
-.item1 {
-  transition-delay: 100ms;
-}
-.item2 {
-  transition-delay: 200ms;
-}
-.item3 {
-  transition-delay: 300ms;
-}
-.item4 {
-  transition-delay: 400ms;
-}
-.item5 {
-  transition-delay: 500ms;
-}
 
 .dropdown {
   position: relative;
+  padding: 0;
 }
 .dropdown-content {
   display: none; 
@@ -178,16 +164,11 @@
   transition: none !important;
 }
 
-.navbar-nav .nav-item {
-  /* transition: none; */
-}
-
-.title .left,
-.title .right {
-  transition: none;
-}
-
 .typing-demo {
   display: flex;
   align-items: center;
+}
+
+.LanNAme{
+  font-size: 22px;
 }
