@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Scheherazade+New:wght@400;500;600;700&family=Vollkorn+SC:wght@400;600;700;900&family=Vollkorn:ital,wght@0,400..900;1,400..900&family=Zen+Antique&family=Zen+Antique+Soft&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;600;700;900&family=Vollkorn:ital,wght@0,400..900;1,400..900&family=Zen+Antique&family=Zen+Antique+Soft&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Vollkorn+SC:wght@400;600;700;900&family=Vollkorn:ital,wght@0,400..900;1,400..900&family=Zen+Antique&family=Zen+Antique+Soft&display=swap');
-
+#root{
+  background-image: url('./assets/background/golden-lines-pattern-vector-geometric-260nw-2010359708.jpg');
+}
 
 * {
   font-family: "Zen Antique", "Vollkorn", "Noto Serif JP", "Scheherazade New",
