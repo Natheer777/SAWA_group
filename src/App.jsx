@@ -141,7 +141,7 @@ function App() {
           
               <Router>
             <Routes>
-              <Route path="/Sawa/" element={<Home />} />
+              <Route path="/SAWA_group/" element={<Home />} />
             </Routes>
               </Router>
         

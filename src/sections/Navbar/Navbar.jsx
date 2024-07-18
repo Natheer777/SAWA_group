@@ -156,7 +156,7 @@
 
 
 import { useTranslation } from "react-i18next";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef , useState} from "react";
 import Logo from "../../assets/Logo/سوىAI-01 (1).webp";
 import { FaHome, FaPhoneAlt } from "react-icons/fa";
 import { IoPerson } from "react-icons/io5";
@@ -166,9 +166,10 @@ import i18n from "i18next";
 import "./Navbar.css";
 
 export default function Navbar() {
-  const [t] = useTranslation();
+  const [t , i18n] = useTranslation();
   const dropdownRef = useRef(null);
   const navbarCollapseRef = useRef(null);
+  const [current , setcurrent]  = useState(i18n.language)
 
   const showDropdown = () => {
     if (dropdownRef.current) {
@@ -277,19 +278,28 @@ export default function Navbar() {
                     style={{ display: "none" }}
                   >
                     <a
-                      onClick={() => i18n.changeLanguage("ja")}
+                      onClick={() =>{ i18n.changeLanguage("ja");
+                        setcurrent("日本語")
+
+                      }}
                       className="dropdown-item"
                     >
                       日本語
                     </a>
                     <a
-                      onClick={() => i18n.changeLanguage("en")}
+                      onClick={() =>{ i18n.changeLanguage("en");
+                      setcurrent("English")
+
+                      }}
                       className="dropdown-item"
                     >
                       English
                     </a>
                     <a
-                      onClick={() => i18n.changeLanguage("ar")}
+                      onClick={() =>{ i18n.changeLanguage("ar");
+                      setcurrent("العربية")
+
+                      }}
                       className="dropdown-item"
                     >
                       العربية
