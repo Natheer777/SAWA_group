@@ -1,23 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&family=Zen+Antique+Soft&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Zen+Antique&family=Zen+Antique+Soft&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Scheherazade+New:wght@400;500;600;700&family=Vollkorn+SC:wght@400;600;700;900&family=Vollkorn:ital,wght@0,400..900;1,400..900&family=Zen+Antique&family=Zen+Antique+Soft&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn+SC:wght@400;600;700;900&family=Vollkorn:ital,wght@0,400..900;1,400..900&family=Zen+Antique&family=Zen+Antique+Soft&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Vollkorn+SC:wght@400;600;700;900&family=Vollkorn:ital,wght@0,400..900;1,400..900&family=Zen+Antique&family=Zen+Antique+Soft&display=swap');
-#root
-,body{
-  background-image: url('./assets/background/golden-lines-pattern-vector-geometric-260nw-2010359708.jpg');
+ */
+
+ @font-face {
+  font-family: 'Zen Antique';
+  src: url('../src/Fonts/ZenAntiqueSoft-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Noto Serif JP';
+  src: url('../src/Fonts/static/NotoSerifJP-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Scheherazade New';
+  src: url('../src/Fonts/ScheherazadeNew-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Vollkorn SC';
+  src: url('../src/Fonts/static/Vollkorn-Regular.ttf') format('truetype');
+}
 
 * {
   font-family: "Zen Antique", "Vollkorn", "Noto Serif JP", "Scheherazade New",
-      serif;
-    font-weight: 900;
-    font-style: normal;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-
+  serif;
+  font-weight: 900;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+#root{
+  background-image: url('./assets/background/OIP (1).jpg');
 }
 .Loading {
   width: 6vh;

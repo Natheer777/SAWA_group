@@ -82,9 +82,9 @@ export default function Head() {
   return (
     <HelmetProvider>
       <Helmet>
-        <title>{t("title")}</title>
+        <title>{t("title")} {t("Header-p")}</title>
         <meta name="description" content={t("About-p")} />
-        <meta property="og:title" content={t("title")} />
+        <meta property="og:title" content={t("Header-p")}/>
         <meta property="og:description" content={t("About-p")} />
         <meta property="og:image" content="https://sawagroup.jp/assets/%D8%B3%D9%88%D9%89AI-01%20(1)-DEH58VaA.webp" />
         <meta property="og:url" content="https://sawagroup.jp/" />
