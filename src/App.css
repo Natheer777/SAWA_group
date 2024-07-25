@@ -35,7 +35,10 @@
   list-style: none;
 }
 #root{
-  background-image: url('./assets/background/R (2).jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url('./assets/background/OIPqqqqqqqqqqqqqqq.jpg');
 }
 .Loading {
   width: 6vh;
