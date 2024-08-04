@@ -98,11 +98,11 @@ export default function Navbar() {
               {t("Header-h")}
             </h1>
           </li>
-          <li>
+          {/* <li>
             <a className="navbar-brand" href="#">
               <img src={Logo} alt="Logo" />
             </a>
-          </li>
+          </li> */}
             </ul>
             <li className="nav-item dropdown ms-3 nav-link dropdown-toggle fs-5">
             <span className="navbar-toggler-icon">
@@ -115,7 +115,7 @@ export default function Navbar() {
                   onClickCapture={showDropdown}
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <LuLanguages />  <span className="LanNAme">{current}</span> ▼
+                  <LuLanguages />
                   <div
                     className="dropdown-content"
                     ref={dropdownRef}
@@ -177,7 +177,7 @@ export default function Navbar() {
                   <FaPhoneAlt /> {t("Navbar-contact")}
                 </a>
               </li>
-              <li className="nav-item dropdown ms-3 nav-link dropdown-toggle fs-5">
+              <li className="langPc nav-item dropdown ms-3 nav-link dropdown-toggle fs-5">
                 <div
                   className="dropdown lanBtn"
                   onMouseEnter={showDropdown}
