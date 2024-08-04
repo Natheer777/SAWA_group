@@ -224,6 +224,8 @@ import { GrServices } from "react-icons/gr";
 import { LuLanguages } from "react-icons/lu";
 import i18n from "i18next";
 import { FiAlignJustify } from "react-icons/fi";
+import { MdOutlineLanguage } from "react-icons/md";
+
 
 import "./Navbar.css";
 
@@ -317,13 +319,13 @@ export default function Navbar() {
               <li className="nav-item dropdown ms-3 nav-link dropdown-toggle fs-5">
                 <span className="navbar-toggler-icon"></span>
                 <div
-                  className="dropdown lanBtn"
+                  className="dropdown lanBtn pt-2"
                   onMouseEnter={() => showDropdown(dropdownTogglerRef)}
                   onMouseLeave={() => hideDropdown(dropdownTogglerRef)}
                   onClickCapture={() => showDropdown(dropdownTogglerRef)}
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <LuLanguages />
+                  <MdOutlineLanguage />
                   <div
                     className="dropdown-content"
                     ref={dropdownTogglerRef}
@@ -395,7 +397,7 @@ export default function Navbar() {
                     onClickCapture={() => showDropdown(dropdownCollapseRef)}
                     aria-labelledby="navbarDropdownMenuLink"
                   >
-                    <LuLanguages /> <span className="LanNAme">{current}</span> ▼
+                    <MdOutlineLanguage /> <span className="LanNAme">{current}</span> ▼
                     <div
                       className="dropdown-content"
                       ref={dropdownCollapseRef}
