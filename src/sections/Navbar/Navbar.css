@@ -27,9 +27,13 @@
   width: 4rem;
 }
 .title_toggler h1{
-  font-size: 2rem !important;
+  font-size: 1.1rem !important;
+}
+.title_toggler{
+  margin: 0;
 }
 @media screen and (max-width:992px) {
+
   .t{
     display: none !important;
   }
@@ -46,11 +50,11 @@
     display: none;
   }
   .lanBtn svg{
-    font-size: 35px;
+    font-size: 20px;
   }
   span.navbar-toggler-icon {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
 }
 }
 
