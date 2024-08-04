@@ -1,32 +1,33 @@
 @font-face {
   font-family: 'Zen Antique';
   src: url('../src/Fonts/ZenAntiqueSoft-Regular.woff2') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  /* font-weight: normal; */
+  /* font-style: normal; */
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Noto Serif JP';
   src: url('../src/Fonts/NotoSerifJP-Regular.woff2') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  /* font-weight: normal; */
+  /* font-style: normal; */
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Scheherazade New';
   src: url('../src/Fonts/ScheherazadeNew-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
+  /* src: url('../src/Fonts/ScheherazadeNew-SemiBold.ttf') format('truetype'); */
+  /* font-weight: bold; */
+  /* font-style: normal; */
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Vollkorn SC';
   src: url('../src/Fonts/Vollkorn-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  /* font-weight: normal; */
+  /* font-style: normal; */
   font-display: swap;
 }
 

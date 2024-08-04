@@ -8,9 +8,41 @@
   flex-direction: row-reverse;
 }
 .navbar-toggler {
+  display: inline-flex;
   width: 100%;
+  justify-content: space-between;
   margin-top: 10px;
+  align-items: center;
+  /* gap: 30px; */
 }
+
+.title_toggler{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 50px; */
+}
+
+.title_toggler img{
+  width: 4rem;
+}
+.title_toggler h1{
+  font-size: 2rem !important;
+}
+@media screen and (max-width:992px) {
+  .t{
+    display: none !important;
+  }
+  .title ul li{
+    
+    height: 50px !important;
+  }
+  .dropdown{
+    display: flex;
+    align-items: center;
+  }
+}
+
 .navbar-collapse {
   justify-content: center;
 }
@@ -42,6 +74,8 @@
 .dropdown {
   position: relative;
   padding: 0;
+  /* display: contents; */
+  /* margin: 10px; */
 }
 .dropdown-content {
   display: none; 
