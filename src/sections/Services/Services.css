@@ -20,7 +20,6 @@
   color: var(--color--red1);
   margin-top: 6px;
   text-align: center;
-
 }
 
 .CaRd p {
@@ -28,10 +27,13 @@
   justify-content: start;
   display: flex;
   padding: 5px;
-  font-weight: 500;
+  font-weight: 900;
 }
 .CaRd p[lang="ja"]{
-  font-size: 18px;
+  font-size: 17.2px;
+}
+.CaRd p[lang="ar"],[lang="ja"]{
+  text-align: justify;
 }
 .serv5 h4[lang="ja"]{
   font-size: 20px;

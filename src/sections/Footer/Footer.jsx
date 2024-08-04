@@ -27,7 +27,7 @@ export default function Footer() {
                 <p></p>
               </MDBCol>
               <MDBCol lg="9" md="8">
-                <h5 className="text-uppercase adress" lang={i18n.language}> {t("Adress")}</h5>
+                <h5 className=" adress" lang={i18n.language}> {t("Adress")}</h5>
 
                 <ul className="list-unstyled">
                   

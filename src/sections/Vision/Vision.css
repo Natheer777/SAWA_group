@@ -12,6 +12,7 @@
     font-weight: 500;
     font-size: 20px;
     display: inline-block;
+    text-align: justify;
 }
 .vision-details[lang="ar"]{
     line-height: 2.6;

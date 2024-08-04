@@ -14,6 +14,9 @@
 .navbar-collapse {
   justify-content: center;
 }
+.navbar-toggler ,.collapsed{
+  /* text-align: center; */
+}
 .navbar-nav {
   gap: 15px;
 }

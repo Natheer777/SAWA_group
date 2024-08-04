@@ -95,6 +95,7 @@
 // };
 
 // export default AutoSlider;
+
 import  { useState, useEffect } from 'react';
 import img1 from '../../assets/Services/من نحن_.webp'
 import img2 from '../../assets/Services/img3 (1).webp'
