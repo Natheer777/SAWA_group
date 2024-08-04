@@ -319,7 +319,7 @@ export default function Navbar() {
               <li className="nav-item dropdown ms-3 me-3 nav-link dropdown-toggle fs-5">
                 <span className="navbar-toggler-icon"></span>
                 <div
-                  className="dropdown lanBtn pt-2"
+                  className="dropdown lanBtn "
                   onMouseEnter={() => showDropdown(dropdownTogglerRef)}
                   onMouseLeave={() => hideDropdown(dropdownTogglerRef)}
                   onClickCapture={() => showDropdown(dropdownTogglerRef)}

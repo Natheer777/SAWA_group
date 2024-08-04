@@ -314,6 +314,9 @@
   .reversMobile{
     margin-top: 40px !important;
   }
+  .lanBtn{
+    padding-top: 6px !important;
+  }
 }
 
 .navbar-collapse {
