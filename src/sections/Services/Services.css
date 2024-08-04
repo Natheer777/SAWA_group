@@ -16,26 +16,26 @@
 
 .CaRd h4 {
   margin: 0;
-  font-size: 21px;
+  font-size: 22px;
   color: var(--color--red1);
   margin-top: 6px;
   text-align: center;
   font-weight: 900 !important;
 }
 .CaRd h4[lang='ja']{
-  font-size: 13px;
+  /* font-size: 13px; */
 }
 .CaRd h4[lang='en']{
-  font-size: 14px;
+  /* font-size: 14px; */
 }
-
 .CaRd p {
   font-size: 20px;
   justify-content: start;
   display: flex;
   padding: 5px;
-  font-weight: 100 !important;
-  
+  font-family: "Scheherazade New", serif;
+  font-weight: 500 !important;
+  font-style: normal !important;
 }
 
 .CaRd p[lang="ja"]{
@@ -64,4 +64,38 @@
   margin: 0 auto !important;
   border-radius: 10px;
   background-color: whitesmoke;
+}
+.serv11 h4[lang="ar"]{
+  font-size: 20px;
+}
+.serv11 h4[lang="ja"]{
+  font-size: 13px;
+}
+.serv7 h4[lang="ja"]{
+  font-size: 15px;
+}
+.serv3 h4[lang="ja"]{
+  font-size: 17px;
+}
+.serv11 h4[lang="en"]{
+  font-size: 16px;
+}
+  .serv9 h4[lang="en"]{
+  font-size: 21px;
+}
+  .serv8 h4[lang="en"]{
+  font-size: 14px;
+}
+
+.serv7 h4[lang="en"]{
+font-size: 17px;
+}
+.serv6 h4[lang="en"]{
+font-size: 16px;
+}
+.serv5 h4[lang="en"]{
+font-size: 17px;
+}
+.serv4 h4[lang="en"]{
+font-size: 18px;
 }
