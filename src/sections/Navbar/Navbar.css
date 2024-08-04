@@ -309,6 +309,9 @@
   .nav-item ,.dropdown{
     flex-direction: row-reverse;
   }
+  .reversMobile{
+    margin-top: 20px;
+  }
 }
 
 .navbar-collapse {

@@ -281,7 +281,7 @@ export default function Navbar() {
   return (
     <div className="container">
       <div className="revers">
-        <div className="title container mt-4">
+        <div className="title container reversMobile">
           <ul className="flex-container">
             <li className="t">
               <h1 lang={i18n.language}>
