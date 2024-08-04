@@ -33,7 +33,7 @@
 
 * {
   font-family: "Zen Antique", "Vollkorn SC", "Noto Serif JP", "Scheherazade New", serif;
-  font-weight: 900;
+  font-weight: 900 !important;
   font-style: normal;
   margin: 0;
   padding: 0;
