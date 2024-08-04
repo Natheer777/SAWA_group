@@ -316,7 +316,7 @@ export default function Navbar() {
               </li>
             </ul>
             <ul className="navbar-right">
-              <li className="nav-item dropdown ms-3 nav-link dropdown-toggle fs-5">
+              <li className="nav-item dropdown ms-3 me-3 nav-link dropdown-toggle fs-5">
                 <span className="navbar-toggler-icon"></span>
                 <div
                   className="dropdown lanBtn pt-2"

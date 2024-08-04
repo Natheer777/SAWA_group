@@ -16,11 +16,17 @@
 
 .CaRd h4 {
   margin: 0;
-  font-size: 22px;
+  font-size: 21px;
   color: var(--color--red1);
   margin-top: 6px;
   text-align: center;
-  font-weight: 900;
+  font-weight: 900 !important;
+}
+.CaRd h4[lang='ja']{
+  font-size: 13px;
+}
+.CaRd h4[lang='en']{
+  font-size: 14px;
 }
 
 .CaRd p {
@@ -28,6 +34,7 @@
   justify-content: start;
   display: flex;
   padding: 5px;
+  font-weight: 100 !important;
   
 }
 
