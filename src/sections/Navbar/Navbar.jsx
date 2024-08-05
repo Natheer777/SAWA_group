@@ -306,14 +306,18 @@ export default function Navbar() {
           </div>
         </div>
         <nav className="navbar navbar-expand-lg navbar-light">
-          <div lang={i18n.language} className="container-fluid">
+          <div lang={i18n.language} className="container-fluid mobile">
 
             <ul className="title_toggler">
+            <li> <a className="navbar-brand" href="#">
+                <img src={Logo} alt="Logo" />
+              </a></li>
               <li className="title">
                 <h1 lang={i18n.language}>
                   {t("Header-h")}
                 </h1>
               </li>
+         
             </ul>
             <ul className="navbar-right">
               <li lang={i18n.language} className="nav-item dropdown ms-3 me-3 nav-link dropdown-toggle fs-5">
@@ -362,6 +366,7 @@ export default function Navbar() {
                 >
                   <FiAlignJustify />
                 </button>
+         
               </li>
             </ul>
 
