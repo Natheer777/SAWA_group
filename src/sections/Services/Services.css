@@ -66,36 +66,42 @@
   background-color: whitesmoke;
 }
 .serv11 h4[lang="ar"]{
-  font-size: 20px;
+  font-size: 18px;
 }
 .serv11 h4[lang="ja"]{
-  font-size: 13px;
+  font-size: 12px;
 }
 .serv7 h4[lang="ja"]{
-  font-size: 15px;
+  font-size: 14px;
 }
 .serv3 h4[lang="ja"]{
-  font-size: 17px;
+  font-size: 15px;
 }
 .serv11 h4[lang="en"]{
-  font-size: 16px;
+  font-size: 14px;
 }
   .serv9 h4[lang="en"]{
-  font-size: 21px;
+  font-size: 19px;
 }
   .serv8 h4[lang="en"]{
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .serv7 h4[lang="en"]{
-font-size: 17px;
+font-size: 15px;
 }
 .serv6 h4[lang="en"]{
-font-size: 16px;
+font-size: 14px;
 }
 .serv5 h4[lang="en"]{
-font-size: 17px;
+font-size: 15px;
 }
 .serv4 h4[lang="en"]{
-font-size: 18px;
+font-size: 16px;
+}
+.serv1 h4[lang="en"]{
+font-size: 19px;
+}
+.serv2 h4[lang="en"]{
+font-size: 20px;
 }
