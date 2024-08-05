@@ -308,7 +308,7 @@ export default function Navbar() {
         <nav className="navbar navbar-expand-lg navbar-light">
           <div lang={i18n.language} className="container-fluid mobile">
 
-            <ul className="title_toggler">
+            <ul lang={i18n.language} className="title_toggler">
             <li> <a className="navbar-brand" href="#">
                 <img src={Logo} alt="Logo" />
               </a></li>

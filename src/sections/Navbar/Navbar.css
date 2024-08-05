@@ -252,6 +252,10 @@ bottom: 8px;
   display: flex !important;
   gap: 5px;
 }
+.title_toggler[lang="ar"]{
+  direction: ltr;
+  display: flex;
+}
 .navbar-right{
   padding: 0;
   /* display: flex !important; */
@@ -266,6 +270,7 @@ bottom: 8px;
     align-items: stretch !important;
     border-radius: 10px;
     margin-top: 10px;
+    justify-content: space-evenly !important;
   }
   .container-fluid[lang="ar"]{
     flex-direction: row-reverse;
@@ -340,14 +345,17 @@ bottom: 8px;
 }
 .navbar-brand img{
   width: 2rem;
-  padding-top: 3px;
+  /* padding-top: 3px; */
+}
+.imgMobile[lang="ar"]{
+  flex-direction: row;
 }
 }
 .navbar-toggler svg{
   font-size: 25px;
 }
 .lanBtn svg {
-  font-size: 24px;
+  font-size: 25px;
 }
 .navbar-collapse {
   justify-content: center;
