@@ -250,7 +250,7 @@ bottom: 8px;
 .title_toggler {
   margin: 0;
   display: flex !important;
-  gap: 5px;
+  gap: 12px;
 }
 .title_toggler[lang="ar"]{
   direction: ltr;
@@ -270,7 +270,7 @@ bottom: 8px;
     align-items: stretch !important;
     border-radius: 10px;
     margin-top: 10px;
-    justify-content: space-evenly !important;
+    justify-content: space-between !important;
   }
   .container-fluid[lang="ar"]{
     flex-direction: row-reverse;
@@ -332,6 +332,9 @@ bottom: 8px;
   }
   .lanBtn{
     /* padding-top: 10px !important; */
+  }
+  .nav-item ,.dropdown{
+    gap: 7px;
   }
   .nav-item ,.dropdown[lang="ar"]{
   flex-direction: row;
