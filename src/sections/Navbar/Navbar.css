@@ -243,9 +243,9 @@
   width: 4rem;
 }
 .title_toggler h1 {
-  font-size: 35px !important;
+  font-size: 25px !important;
 position: relative;
-bottom: 8px;
+bottom: 4px;
 }
 .title_toggler {
   margin: 0;
