@@ -243,7 +243,9 @@
   width: 4rem;
 }
 .title_toggler h1 {
-  font-size: 19px !important;
+  font-size: 35px !important;
+position: relative;
+bottom: 8px;
 }
 .title_toggler {
   margin: 0;
@@ -262,11 +264,11 @@
     border-radius: 10px;
     margin-top: 10px;
   }
+  .container-fluid[lang="ar"]{
+    flex-direction: row-reverse;
+  }
   .navbar-right ,.title_toggler{
     display: block !important;
-  }
-  .navbar-nav{
-    /* display: none !important; */
   }
   .t {
     display: none !important;
@@ -282,9 +284,7 @@
   .langPc {
     display: none;
   }
-  .lanBtn svg {
-    font-size: 20px;
-  }
+
   span.navbar-toggler-icon {
     display: none;
   }
@@ -300,6 +300,7 @@
   }
   .dropdown-content {
     display: block;
+    right: 0;
   }
   .navMobile{
     display: block;
@@ -315,10 +316,21 @@
     margin-top: 40px !important;
   }
   .lanBtn{
-    padding-top: 6px !important;
+    padding-top: 4px !important;
   }
+  .nav-item ,.dropdown[lang="ar"]{
+  flex-direction: row;
 }
-
+.nav-item ,.dropdown[lang="ja"]{
+  flex-direction: row-reverse;
+}
+}
+.navbar-toggler svg{
+  font-size: 30px;
+}
+.lanBtn svg {
+  font-size: 30px;
+}
 .navbar-collapse {
   justify-content: center;
 }
@@ -374,7 +386,7 @@
   border: none;
   background-color: transparent;
   font-size: 12px;
-  margin-top: 8px;
+  margin-top: 7px;
 }
 .lanBtn svg {
   color: var(--color--red1);

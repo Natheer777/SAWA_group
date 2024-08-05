@@ -306,7 +306,7 @@ export default function Navbar() {
           </div>
         </div>
         <nav className="navbar navbar-expand-lg navbar-light">
-          <div className="container-fluid">
+          <div lang={i18n.language} className="container-fluid">
 
             <ul className="title_toggler">
               <li className="title">
@@ -316,7 +316,7 @@ export default function Navbar() {
               </li>
             </ul>
             <ul className="navbar-right">
-              <li className="nav-item dropdown ms-3 me-3 nav-link dropdown-toggle fs-5">
+              <li lang={i18n.language} className="nav-item dropdown ms-3 me-3 nav-link dropdown-toggle fs-5">
                 <span className="navbar-toggler-icon"></span>
                 <div
                   className="dropdown lanBtn "

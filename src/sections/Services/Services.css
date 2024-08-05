@@ -33,9 +33,9 @@
   justify-content: start;
   display: flex;
   padding: 5px;
-  font-family: "Scheherazade New", serif;
-  font-weight: 500 !important;
-  font-style: normal !important;
+  /* font-family: "Scheherazade New", serif; */
+  /* font-weight: 500 !important; */
+  /* font-style: normal !important; */
 }
 
 .CaRd p[lang="ja"]{
@@ -69,10 +69,10 @@
   font-size: 18px;
 }
 .serv11 h4[lang="ja"]{
-  font-size: 12px;
+  /* font-size: 12px; */
 }
 .serv7 h4[lang="ja"]{
-  font-size: 14px;
+  /* font-size: 14px; */
 }
 .serv3 h4[lang="ja"]{
   font-size: 15px;
@@ -84,17 +84,17 @@
   font-size: 19px;
 }
   .serv8 h4[lang="en"]{
-  font-size: 12px;
+  /* font-size: 12px; */
 }
 
 .serv7 h4[lang="en"]{
 font-size: 15px;
 }
 .serv6 h4[lang="en"]{
-font-size: 14px;
+/* font-size: 14px; */
 }
 .serv5 h4[lang="en"]{
-font-size: 15px;
+/* font-size: 15px; */
 }
 .serv4 h4[lang="en"]{
 font-size: 16px;
