@@ -325,7 +325,7 @@ bottom: 8px;
   }
   
   .reversMobile{
-    margin-top: 40px !important;
+    /* margin-top: 40px !important; */
   }
   .navbar-toggler{
     margin: 0;
@@ -464,6 +464,7 @@ bottom: 8px;
 }
 
 .typing-demo {
+  margin: 0 !important;
   display: flex;
   justify-content: start;
   width: 100%;
@@ -477,15 +478,17 @@ bottom: 8px;
 }
 @media screen and (min-width: 5px) and (max-width: 550px) {
   .title ul {
-    position: relative;
+    /* position: relative; */
   }
   .title ul li {
     height: 11rem;
   }
   .diffrint {
-    align-items: end;
+    /* align-items: end;
     position: absolute;
-    width: 100%;
+    width: 100%; */
+    margin: 0;
+    font-size:23px !important;
   }
 }
 
