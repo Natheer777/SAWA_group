@@ -68,11 +68,12 @@
 .serv11 h4[lang="ar"]{
   font-size: 18px;
 }
+
 .serv11 h4[lang="ja"]{
-  /* font-size: 12px; */
+  font-size: 20px;
 }
 .serv7 h4[lang="ja"]{
-  /* font-size: 14px; */
+  font-size: 20px;
 }
 .serv3 h4[lang="ja"]{
   font-size: 16px;
