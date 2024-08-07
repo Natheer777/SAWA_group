@@ -19,6 +19,7 @@
   flex-wrap: wrap;
 }
 .footer ul{
+  line-height: 2;
   list-style: none;
 }
 .footer ul li {
@@ -42,7 +43,7 @@
   text-align: start;
   font-size: 18px;
   margin-bottom: 10px;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 @media screen and (min-width:1200px) and (max-width:1440px){

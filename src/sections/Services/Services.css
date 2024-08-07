@@ -1,6 +1,6 @@
 .MainTitle {
   color: var(--color--red1);
-  margin-bottom: 5vh;
+  margin-bottom: 3vh;
 }
 .MainTitle h2{
   font-size: 2rem;
@@ -15,12 +15,13 @@
 }
 
 .CaRd h4 {
-  margin: 0;
   font-size: 22px;
   color: var(--color--red1);
   margin-top: 6px;
   text-align: center;
   font-weight: 900 !important;
+  line-height: 2;
+  margin: 0 !important;
 }
 .CaRd h4[lang='ja']{
   /* font-size: 13px; */
@@ -34,6 +35,7 @@
   display: flex;
   padding: 5px;
   font-weight: 500 !important;
+  line-height: 2;
 }
 
 .CaRd p[lang="ja"]{
