@@ -35,7 +35,7 @@ export default function Services() {
               <p lang={i18n.language}>{t("Services-card4")}</p>
             </div>
             <div className="serv5 top Regular shadow">
-              {card[4]} <h4 lang={i18n.language}>{t("Services-card5T")}</h4>{" "}
+              {card[4]} <h4 lang={i18n.language}>{t("Services-card5T")}</h4><h4 lang={i18n.language}>{t("Services-card5T2")}</h4>{" "}
               <p lang={i18n.language}>{t("Services-card5")}</p>
             </div>
             <div className="serv6 top Regular shadow">
@@ -43,11 +43,11 @@ export default function Services() {
               <p lang={i18n.language}>{t("Services-card6")}</p>
             </div>
             <div className="serv7 top Regular shadow">
-              {card[6]} <h4 lang={i18n.language}>{t("Services-card7T")}</h4>{" "}
+              {card[6]} <h4 lang={i18n.language}>{t("Services-card7T")}</h4><h4 lang={i18n.language}>{t("Services-card7T2")}</h4>{" "}
               <p lang={i18n.language}>{t("Services-card7")}</p>
             </div>
             <div className="serv8 top Regular shadow">
-              {card[7]} <h4 lang={i18n.language}>{t("Services-card8T")}</h4>{" "}
+              {card[7]} <h4 lang={i18n.language}>{t("Services-card8T")}</h4><h4 lang={i18n.language}>{t("Services-card8T2")}</h4>{" "}
               <p lang={i18n.language}>{t("Services-card8")}</p>
             </div>
             <div className="serv9 top Regular shadow">
@@ -59,7 +59,8 @@ export default function Services() {
               <p lang={i18n.language}>{t("Services-card10")}</p>
             </div>
             <div className="serv11 top Regular shadow">
-              {card[10]}<h4 lang={i18n.language}>{t("Services-card11T")}</h4> <p lang={i18n.language}>{t("Services-card11")}</p>
+              {card[10]}<h4 lang={i18n.language}>{t("Services-card11T")}</h4><h4 lang={i18n.language}>{t("Services-card11T2")}</h4>
+              <p lang={i18n.language}>{t("Services-card11")}</p>
             </div>
             {/* <div className="serv12 top Regular shadow">
               {card[11]} <h4>{t("Services-card12T")}</h4> <p lang={i18n.language}>{t("Services-card12")}</p>
