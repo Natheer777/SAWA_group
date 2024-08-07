@@ -1,5 +1,5 @@
 
-/* @import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;500;600;700&display=swap');
 
 @font-face {
   font-family: 'Zen Antique';
@@ -20,7 +20,7 @@
 @font-face {
   font-family: 'Scheherazade New';
   src: url('../src/Fonts/ScheherazadeNew-Bold.ttf') format('truetype');
-  /* src: url('../src/Fonts/ScheherazadeNew-SemiBold.ttf') format('truetype'); */
+  /* src: url('../src/Fonts/ScheherazadeNew-Bold.ttf') format('truetype'); */
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -42,6 +42,9 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+}
+*[lang="ar"]{
+  font-weight: 900 !important;
 }
 /* @import url('https://fonts.googleapis.com/css2?family=Zen+Antique&family=Zen+Antique+Soft&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Scheherazade+New:wght@400;500;600;700&family=Vollkorn+SC:wght@400;600;700;900&family=Vollkorn:ital,wght@0,400..900;1,400..900&family=Zen+Antique&family=Zen+Antique+Soft&display=swap');

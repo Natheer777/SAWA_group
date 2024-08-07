@@ -33,9 +33,7 @@
   justify-content: start;
   display: flex;
   padding: 5px;
-  /* font-family: "Scheherazade New", serif; */
-  /* font-weight: 500 !important; */
-  /* font-style: normal !important; */
+  font-weight: 500 !important;
 }
 
 .CaRd p[lang="ja"]{
@@ -43,6 +41,7 @@
 }
 .CaRd p[lang="ar"]{
   text-align: justify;
+  /* font-weight: 500 !important; */
 }
 .serv5 h4[lang="ja"]{
   font-size: 20px;
