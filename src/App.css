@@ -4,16 +4,12 @@
 @font-face {
   font-family: 'Zen Antique';
   src: url('../src/Fonts/ZenAntiqueSoft-Regular.woff2') format('truetype');
-  /* font-weight: normal; */
-  /* font-style: normal; */
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Noto Serif JP';
   src: url('../src/Fonts/NotoSerifJP-Regular.woff2') format('truetype');
-  /* font-weight: normal; */
-  /* font-style: normal; */
   font-display: swap;
 }
 
@@ -29,8 +25,6 @@
 @font-face {
   font-family: 'Vollkorn SC';
   src: url('../src/Fonts/Vollkorn-Regular.ttf') format('truetype');
-  /* font-weight: normal; */
-  /* font-style: normal; */
   font-display: swap;
 }
 

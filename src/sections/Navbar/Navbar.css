@@ -318,6 +318,9 @@ bottom: 8px;
     top: 30px;
     /* right: 0px; */
   }
+  .flex-container{
+    justify-content: center !important;
+  }
   .nav-item ,.dropdown{
     flex-direction: row-reverse;
     margin: 0 !important;
