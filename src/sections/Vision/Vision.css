@@ -14,9 +14,7 @@
     display: inline-block;
     text-align: justify;
 }
-.vision-details[lang="ar"]{
-    /* line-height: 2.6; */
-}
+
 
 .text-container{
   width: 100%; 

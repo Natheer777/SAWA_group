@@ -4,7 +4,7 @@ export default function Card_Slogans(props) {
     <>
     <div className="Container text-center">
         <div className="Slogans">
-            <img src={props.image} alt="" />
+            <img src={props.image} alt="" loading='lazy' />
             
             
         </div>

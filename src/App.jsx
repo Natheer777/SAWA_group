@@ -12,6 +12,7 @@ import { MdEmail } from "react-icons/md";
 import Logo from "../src/assets/Logo/سوىAI-01 (1).webp";
 import { FaLine } from "react-icons/fa";
 import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
+import FontFaceObserver from "fontfaceobserver";
 const languages = [
   {
     code: "ar",
@@ -81,15 +82,32 @@ function App() {
 
 
 ////
-  const [loading, setLoading] = useState(false);
+const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
+useEffect(() => {
+  const fontObservers = [
+    new FontFaceObserver('Zen Antique'),
+    new FontFaceObserver('Vollkorn SC'),
+    new FontFaceObserver('Noto Serif JP'),
+    new FontFaceObserver('Scheherazade New'),
+  ];
+
+  const timeoutId = setTimeout(() => {
+    setLoading(false);
+  }, 4000); // فترة الانتظار الافتراضية
+
+  Promise.all(fontObservers.map(observer => observer.load()))
+    .then(() => {
+      clearTimeout(timeoutId); // إلغاء فترة الانتظار الافتراضية إذا تم تحميل الخطوط
+      setLoading(false); // إيقاف التحميل بمجرد تحميل الخطوط
+    })
+    .catch(() => {
+      // يمكنك هنا إضافة معالجة في حالة فشل تحميل أي من الخطوط
       setLoading(false);
-    }, 4000);
-  }, []);
+    });
   
+}, []);
+
 
   ////
 

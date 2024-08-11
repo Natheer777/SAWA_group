@@ -1,12 +1,7 @@
 .Contact img{
 width: 100%;
 }
-/* @media screen and (max-width:750px) {
-  
-  .Contactt{
-    width: calc(95% - 5%);
-    }
-    } */
+
 
     .Contact img {
       width: 100%;
@@ -45,7 +40,6 @@ width: 100%;
       }
     
       label {
-        /* margin-bottom: 1rem; */
         margin-top: 1rem;
       }
     
