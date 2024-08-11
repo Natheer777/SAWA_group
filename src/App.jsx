@@ -85,29 +85,12 @@ function App() {
 const [loading, setLoading] = useState(true);
 
 useEffect(() => {
-  const fontObservers = [
-    new FontFaceObserver('Zen Antique'),
-    new FontFaceObserver('Vollkorn SC'),
-    new FontFaceObserver('Noto Serif JP'),
-    new FontFaceObserver('Scheherazade New'),
-  ];
-
   const timeoutId = setTimeout(() => {
     setLoading(false);
   }, 4000); // فترة الانتظار الافتراضية
 
-  Promise.all(fontObservers.map(observer => observer.load()))
-    .then(() => {
-      clearTimeout(timeoutId); // إلغاء فترة الانتظار الافتراضية إذا تم تحميل الخطوط
-      setLoading(false); // إيقاف التحميل بمجرد تحميل الخطوط
-    })
-    .catch(() => {
-      // يمكنك هنا إضافة معالجة في حالة فشل تحميل أي من الخطوط
-      setLoading(false);
-    });
-  
+  return () => clearTimeout(timeoutId); // تنظيف المؤقت عند إلغاء تركيب الكومبوننت
 }, []);
-
 
   ////
 
