@@ -81,7 +81,7 @@ export default function Footer() {
             <ul className="Ulfooter">
               <li>
             <a className="text-white">
-              Copyright © 2022 SAWA GROUP. All Rights Reserved.
+              Copyright © 2022 Sawa Group. All Rights Reserved.
             </a></li>
               <li className="App">       
       <DesktopViewButton />

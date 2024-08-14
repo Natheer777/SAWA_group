@@ -43,6 +43,8 @@ bottom: 8px;
 }
 @media screen and (max-width: 997px) {
   .container-fluid{
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
     flex-direction: row;
     border: 1px gray solid;
     align-items: stretch !important;
@@ -93,7 +95,7 @@ bottom: 8px;
     display: block;
   }
   .dropdown-content{
-    top: 30px;
+    top: 26px;
     /* right: 0px; */
   }
   .flex-container{

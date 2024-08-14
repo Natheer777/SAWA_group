@@ -12,7 +12,6 @@ import { MdEmail } from "react-icons/md";
 import Logo from "../src/assets/Logo/سوىAI-01 (1).webp";
 import { FaLine } from "react-icons/fa";
 import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
-import FontFaceObserver from "fontfaceobserver";
 const languages = [
   {
     code: "ar",
