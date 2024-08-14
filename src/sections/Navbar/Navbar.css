@@ -43,8 +43,8 @@ bottom: 8px;
 }
 @media screen and (max-width: 997px) {
   .container-fluid{
-    padding-top: 2px !important;
-    padding-bottom: 2px !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
     flex-direction: row;
     border: 1px gray solid;
     align-items: stretch !important;
