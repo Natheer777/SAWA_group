@@ -141,7 +141,7 @@ useEffect(() => {
           
               <Router>
             <Routes>
-              <Route path="/SAWA_group/" element={<Home />} />
+              <Route path="/" element={<Home />} />
             </Routes>
               </Router>
         
