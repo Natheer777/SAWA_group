@@ -42,12 +42,12 @@ export default function Footer() {
                     {t("Phone")}
                   </li>
                     </a>            
-                  <a href="https://wa.link/3zzbvj">
+                  {/* <a href="https://wa.link/3zzbvj">
                     <li>
                       <FaWhatsapp /> {t("Whatsapp")}
                     </li>
-                  </a>
-                  <a href="https://line.me/ti/p/IuAqVt59QV">
+                  </a> */}
+                  {/* <a href="https://line.me/ti/p/IuAqVt59QV">
                     <li>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +61,7 @@ export default function Footer() {
                       </svg>{" "}
                       {t("Line")}
                     </li>
-                    </a>
+                    </a> */}
                     <a href="mailto:contact@sawagroup.jp">
                       
 

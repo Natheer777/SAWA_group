@@ -45,7 +45,7 @@
   /* background-repeat: no-repeat; */
   background-size: contain;
   background-position: center;
-  background-image: url('./assets/OIP (4) (2) (1).png');
+  /* background-image: url('./assets/OIP (4) (2) (1).png'); */
 }
 .Loading {
   width: 6vh;
@@ -150,7 +150,7 @@ background-color: var(--main--color);
   transition-delay: 150ms;
 }
 .email {
-  background-color: palevioletred;
+  background-color: rgb(100, 100, 224);
   transition-delay: 100ms;
 }
 .line {
@@ -160,7 +160,10 @@ background-color: var(--main--color);
 .click {
   background-color: #ca4555;
 }
-
+.call{
+  background-color: rgb(10, 177, 10);
+  transition-delay: 150ms;
+}
 
 
 

@@ -12,6 +12,8 @@ import { MdEmail } from "react-icons/md";
 import Logo from "../src/assets/Logo/سوىAI-01 (1).webp";
 import { FaLine } from "react-icons/fa";
 import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
+import { IoCall } from "react-icons/io5";
+
 const languages = [
   {
     code: "ar",
@@ -55,6 +57,7 @@ function App() {
   }, [currentLanguage, t]);
 
   ////
+  
   useEffect(() => {
     setInterval(() => {
       const observer = new IntersectionObserver((entries) => {
@@ -115,21 +118,26 @@ useEffect(() => {
           </li>
           {showIcons && (
             <>
-              <li className="line top">
+              {/* <li className="line top">
                 <a href="https://line.me/ti/p/IuAqVt59QV">
                   <FaLine />
                 </a>
-              </li>
+              </li> */}
               <li className="email top">
                 <a href="mailto:contact@sawagroup.jp">
                   <MdEmail />
                 </a>
               </li>
-              <li className="whatsapp top">
+              <li className="call top">
+                <a href="tel:+81090-1840-9625">
+                  <IoCall />
+                </a>
+              </li>
+              {/* <li className="whatsapp top">
                 <a href="https://wa.link/mr0gya">
                   <FaWhatsapp />
                 </a>
-              </li>
+              </li> */}
             </>
           )}
         </ul>
@@ -141,7 +149,7 @@ useEffect(() => {
           
               <Router>
             <Routes>
-              <Route path="/SAWA_group/" element={<Home />} />
+              <Route path="/" element={<Home />} />
             </Routes>
               </Router>
         
